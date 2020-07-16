@@ -56,12 +56,3 @@ console.log(JSON.stringify(T_3, null, 3));
 // ----------- Inserting a node
 
 
-// ----------- pre-order traversal
-const T_5 = arrayToBinaryTree([
-  'A',
-  'B', 'C',
-  null, null, 'D', 'E',
-  null, null, null, null, null, null, 'F', null
-]);
-const preOrder_recursiveArr = preOrderRecursive(T_4);
-console.log(preOrder_recursiveArr);
