@@ -2,7 +2,7 @@
 
 exports.levelOrderRecursive = root => {
   const result = [];
-  
+
   if (!root) {
     return result;
   }
@@ -19,11 +19,10 @@ exports.levelOrderRecursive = root => {
       return true;
     }
 
-    return (
-      recurse(node.left, lvl - 1)
-      ||
-      recurse(node.right, lvl - 1)
-    );
+    const leftSubTree = recurse(node.left, lvl - 1);
+    const rightSubTree = recurse(node.right, lvl - 1);
+
+    return (leftSubTree || rightSubTree);
   }
 
   while (recurse(root, level)) {
