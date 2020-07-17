@@ -5,6 +5,7 @@ const {
 const {
     verticalPreOrder
 } = require('../index');
+const { verticalLevelOrder } = require('../vertical-level-order');
 
 // ----------- Binary Tree construction from Array
 /** The Given Binary Tree is:
@@ -32,3 +33,4 @@ const T_1 = arrayToBinaryTree([
 ]);
 console.log(JSON.stringify(T_1, null, 3));
 console.log(verticalPreOrder(T_1));
+console.log(verticalLevelOrder(T_1));
