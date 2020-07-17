@@ -2,7 +2,10 @@
 
 /**
  * Use Morris Traversal to perform Pre-order
+ * This is a stackless & queueless traversal that is implemented on a
+ * non-threaded Binary Tree.
  * @param {TreeNode} root
+ * @returns {Array} result
  */
 exports.morrisPreOrder = root => {
     const result = [];

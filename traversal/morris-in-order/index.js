@@ -1,5 +1,12 @@
 'use strict';
 
+/**
+ * Performs morris in-order traversal.
+ * This is a stackless & queueless traversal that is implemented on a
+ * non-threaded Binary Tree.
+ * @param {TreeNode} root
+ * @returns {Array} result
+ */
 exports.morrisInOrder = root => {
     const result = [];
 
