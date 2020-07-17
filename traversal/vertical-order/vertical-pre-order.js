@@ -111,8 +111,9 @@ exports.verticalPreOrder = (root) => {
             // Update currentHorizontalDistance
             if (prevNode.right && prevNode.right !== currentNode) {
                 currentHorizontalDistance = (currentHorizontalDistance + 1)
-                currentNode = currentNode.right;
-                continue;
+                currentNode = prevNode.right;
+                prevNode = null;
+                break;
             }
 
             // else, set currentNode as prevNode and prevNode to NULL
