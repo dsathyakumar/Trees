@@ -4,6 +4,9 @@
  * Use Morris Traversal to perform Pre-order
  * This is a stackless & queueless traversal that is implemented on a
  * non-threaded Binary Tree.
+ * The key to processing Node values in morris pre-order is:
+ * - when left is going to be re-set
+ * - when right is going to be re-set
  * @param {TreeNode} root
  * @returns {Array} result
  */

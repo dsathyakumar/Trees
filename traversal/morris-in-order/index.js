@@ -4,6 +4,9 @@
  * Performs morris in-order traversal.
  * This is a stackless & queueless traversal that is implemented on a
  * non-threaded Binary Tree.
+ * - The key to processing in-order morris traversal for Node data is that
+ * it has to be done, once the left subtree is fully processed (and the loop
+ * terminates back in the currentNode), before the processing of right subtree starts.
  * @param {TreeNode} root
  * @returns {Array} result
  */
