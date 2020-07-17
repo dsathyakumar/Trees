@@ -1,0 +1,38 @@
+{
+    "name": "trees",
+    "version": "0.0.0",
+    "description": "Javascript data structures and algorithms on Trees",
+    "scripts": {
+        "lint": "eslint *.js **/*.js",
+        "test": "istanbul cover _mocha test/index.js",
+        "build": "yarn run lint && yarn test",
+        "rep": "open coverage/lcov-report/index.html",
+        "all": "yarn run lint && yarn test && yarn run rep",
+        "wrap": "rm -rf node_modules; rm yarn.lock; yarn cache clean && yarn"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dsathyakumar/dsa.git"
+    },
+    "keywords": [
+        "javascript",
+        "js",
+        "data structures",
+        "ds",
+        "algorithms",
+        "problem solving",
+        "leetcode",
+        "geeksforgeeks"
+    ],
+    "author": "DS",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "chai-spies": "^0.7.1",
+        "eslint": "^7.1.0",
+        "eslint-config-ebay": "^0.1.4",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.3.0"
+    }
+}
