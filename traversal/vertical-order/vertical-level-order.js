@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Returns the Vertical Traversal Result of Binary Tree via Level order traversal.
+ * @param {TreeNode} root
+ */
 exports.verticalLevelOrder = root => {
     const result = {};
 
