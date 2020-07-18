@@ -64,7 +64,7 @@ exports.rightView = (root) => {
         // if the front of the Q contains the 1st node of the next level
         // then the current node is the last node of this level.
         // For right view, the last node of every level is needed. So store it.
-        if (q[0] === levelsFirstNodepointer) {
+        if (q[0] === levelsFirstNodepointer || !q.length) {
             result.push(deqNode.val);
         }
     }
