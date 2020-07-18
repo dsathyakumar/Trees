@@ -2,14 +2,11 @@
 
 const {
     arrayToBinaryTree
-} = require('../../construct/arrayToBinaryTree');
+} = require('../../../construct/arrayToBinaryTree');
 
 const {
-    leftView,
-    topView,
-    bottomView,
-    rightView
-} = require('../index');
+    leftView
+} = require('../left-view');
 
 const T_1 = arrayToBinaryTree([
     4,
