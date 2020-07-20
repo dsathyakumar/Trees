@@ -18,17 +18,24 @@ exports.morrisPostOrder = root => {
         return result;
     }
 
+    // The iteration starts off with an empty tree Node.
+    // The given tree is made the left subtree of this tempNode.
     let tempNode = new TreeNode();
     tempNode.left = root;
 
     let postOrderPredecessor = null;
 
+    // Stop Node is a pointer to the postOrderPredecessor which created a LINK
+    // to currentNode by assigning its RIGHT pointer to currentNode.
     let stopNode = null;
     let nextNode = null;
 
+    // So iteration starts off with the tempNode instead of the given root.
     let currentNode = tempNode;
 
+    // loop along as long as currentNode exists.
     while (currentNode) {
+        // process LEFT if it exists.
         if (currentNode.left) {
             postOrderPredecessor = currentNode.left;
 
@@ -65,11 +72,15 @@ exports.morrisPostOrder = root => {
             continue;
         }
 
+        // proccess RIGHT if it exists (in the absence of a LEFT)
         if (currentNode.right) {
             currentNode = currentNode.right;
         }
     }
 
+    // After the entire iteration is over, remove the left link of the
+    // tempNode which is pointing to the given root.
+    // Set tempNode to NULL
     tempNode.left = null;
     tempNode = null;
 
