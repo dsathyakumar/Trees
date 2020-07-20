@@ -1,6 +1,6 @@
 ## Trees
 
-## Basics
+### Topics
 1. Construction
     - Convert from Array Representation of Binary Tree to a Binary Tree & back
     - Convert Nested Lists representation of Binary Tree to a Binary Tree & back
@@ -65,9 +65,10 @@
 7. Width of tree
 8. Diameter of tree
 9. Counts
-    - Number of leaf nodes
-    - Number of full nodes
-    - Number of half nodes
+    - Number of leaf nodes (terminal or external nodes - nodes without children)
+    - Number of full nodes (those that have both LEFT and RIGHT subtrees)
+    - Number of half nodes (those that have either LEFT or RIGHT subtrees)
+    - Number of internal nodes (non-terminal / non-leaf nodes)
     - Number of levels
     - Number of edges
     - Number of nodes
