@@ -4,7 +4,15 @@
  * Determines if a Binary Tree is a Perfect Binary Tree.
  * A Binary Tree is said to be a perfect Binary Tree when every Node has
  * either 0 or 2 children and all Leaf Nodes are at same level.
+ * There are 3 cases thus:
+ * - if any Node had only 1 child (a half node), then its not a Perfect BT
+ * - If any Node in a level, had child Nodes, while the previous Node was a leaf
+ *   Then its not a perfect binary Tree (as leaf nodes are not at the same level)
+ * - If any Node in a level, was a leaf, while the previous Node had child Nodes
+ *  Then, its not a perfect Binary Tree (as leaf nodes are not at the same level)
+ * 
  * @param {TreeNode} root
+ * @returns {Boolean} isPerfect
  */
 exports.isPerfectBinaryTree = root => {
     if (!root) {
