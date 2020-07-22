@@ -2,7 +2,7 @@
 
 const {
   BinaryTreeNode
-} = require('../treeNode');
+} = require('../../treeNode');
 
 exports.arrayToBinaryTree = (arr) => {
     if (!arr.length) {
