@@ -7,7 +7,7 @@
  * Then the (last level - 1) from R->L and so on.
  * The easy way is to use level order traversal and store the result in a 2D array.
  * 
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.spiralClockWise = root => {

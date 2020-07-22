@@ -4,7 +4,7 @@
  * Computes the Right View of the Binary Tree.
  * Uses Level order traversal via a Q
  * To perform Q'less traversal, morris level order traversal can be used.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.rightView = (root) => {

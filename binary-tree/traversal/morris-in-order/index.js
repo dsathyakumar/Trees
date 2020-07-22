@@ -7,7 +7,7 @@
  * - The key to processing in-order morris traversal for Node data is that
  * it has to be done, once the left subtree is fully processed (and the loop
  * terminates back in the currentNode), before the processing of right subtree starts.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.morrisInOrder = root => {

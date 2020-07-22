@@ -5,7 +5,7 @@
     - Convert from Array Representation of Binary Tree to a Binary Tree & back
     - Convert Nested Lists representation of Binary Tree to a Binary Tree & back
     - Convert Map representation of Binary Tree & back.
-    - Convert TreeNode to Left-Child & Right-Sibling representation & back
+    - Convert BinaryTreeNode to Left-Child & Right-Sibling representation & back
 2. Traversals
     - InOrder
         - Recursive

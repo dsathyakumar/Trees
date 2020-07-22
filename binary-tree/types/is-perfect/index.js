@@ -11,7 +11,7 @@
  * - If any Node in a level, was a leaf, while the previous Node had child Nodes
  *  Then, its not a perfect Binary Tree (as leaf nodes are not at the same level)
  * 
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Boolean} isPerfect
  */
 exports.isPerfectBinaryTree = root => {

@@ -4,7 +4,7 @@
  * Performs morris level order traversal.
  * This is a stackless & queueless traversal that is implemented on a
  * non-threaded Binary Tree.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.morrisLevelOrder = root => {

@@ -25,7 +25,7 @@
  *   (stored in the Q), must also be leaf nodes. Cos, if the nodes in the next level
  *   also have child nodes, then the next level is not completely filled.
  * 
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Boolean} isComplete
  */
 exports.isCompleteBinaryTree = root => {

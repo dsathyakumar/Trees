@@ -6,7 +6,7 @@
  * - followed by last element (ending boundary).
  * - Then the process is repeated for the second and last-second element,
  * - till the complete level has been printed.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.boundaryLevelOrder = root => {

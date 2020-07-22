@@ -37,7 +37,7 @@
  * Every Array has 3 parts : data[0] => value, data[1] => array for LEFT subtree
  * data[2] => Array for right subtree. These arrays internally have nested arrays
  * @param {Array} data
- * @returns {TreeNode} node
+ * @returns {BinaryTreeNode} node
  */
 exports.listToBinaryTree = data => {
     // case when tree is empty
@@ -47,9 +47,9 @@ exports.listToBinaryTree = data => {
     }
     // Base case for Recursion (LEAF node)
     if (data[0] && !data[1].length && !data[2].length) {
-        return new TreeNode(data[0], null, null)
+        return new BinaryTreeNode(data[0], null, null)
     }
-    return new TreeNode(
+    return new BinaryTreeNode(
         data[0],
         data[1] ? listOfListToBinaryTree(data[1]) : null,
         data[2] ? listOfListToBinaryTree(data[2]) : null

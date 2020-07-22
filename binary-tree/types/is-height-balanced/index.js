@@ -8,7 +8,7 @@
  * The value of the sub-stage of recursion is needed to compute the
  * value of the parent stage.
  * https://leetcode.com/problems/balanced-binary-tree/
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Boolean} isBalanced
  */
 exports.isHeightBalanced = root => {

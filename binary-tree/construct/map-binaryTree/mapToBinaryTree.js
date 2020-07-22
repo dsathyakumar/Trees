@@ -40,7 +40,7 @@
  * Every JS Obj has 3 props : data => value, left => JS Obj for LEFT subtree
  * right => JS Obj for right subtree
  * @param {Object} data
- * @returns {TreeNode} node
+ * @returns {BinaryTreeNode} node
  */
 exports.mapToBinaryTree = data => {
     // Tree is empty
@@ -50,10 +50,10 @@ exports.mapToBinaryTree = data => {
     }
     // Base case for recursion is that its a LEAF
     if (data.val && !data.left && !data.right) {
-        return new TreeNode(data.val, null, null)
+        return new BinaryTreeNode(data.val, null, null)
     }
     // a null check is in place here as one of the subtrees can still be NULL
-    return new TreeNode(
+    return new BinaryTreeNode(
         data.val,
         data.left ? nestedMapToBinaryTree(data.left) : null,
         data.right ? nestedMapToBinaryTree(data.right) : null

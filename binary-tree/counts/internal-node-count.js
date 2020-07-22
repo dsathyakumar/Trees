@@ -5,7 +5,7 @@
  * in a Binary Tree via a level order traversal via a Q.
  * To implement a Q'less traversal for a non-threaded binary tree,
  * morris level order traversal can be used.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Number} internalNodeCount
  */
 exports.getInternalNodeCount = root => {

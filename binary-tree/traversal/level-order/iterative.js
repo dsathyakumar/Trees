@@ -3,7 +3,7 @@
 /*
 * Level-Order Traversal
 * Process Nodes Level Wise (Root is at Level = 0)
-* @param {TreeNode} root
+* @param {BinaryTreeNode} root
 **/
 const levelOrderIterative = (root) => {
     const result = [];

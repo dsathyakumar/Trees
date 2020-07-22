@@ -5,7 +5,7 @@
  * To implement a Q'less level order traversal, for a non-threaded binary tree, morris
  * level order traversal can be used.
  * 1/2 nodes are those parent nodes that have only either a LEFT or RIGHT child / subtree.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Number} halfNodeCount
  */
 exports.getHalfNodeCount = root => {

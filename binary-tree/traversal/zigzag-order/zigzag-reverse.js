@@ -7,7 +7,7 @@
  * For this, we use the usual level order traversal, filling elements
  * L->R in the result array, for even levels
  * R->L in the result array, for odd levels
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  */
 exports.zigzagReverse = root => {
     const result = [];

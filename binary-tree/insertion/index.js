@@ -26,7 +26,7 @@ exports.insertNode = (root, val) => {
         if (deqNode.left) {
             q.push(deqNode.left);
         } else {
-            deqNode.left = new TreeNode(val);
+            deqNode.left = new BinaryTreeNode(val);
             break;
         }
 
@@ -36,7 +36,7 @@ exports.insertNode = (root, val) => {
         if (deqNode.right) {
             q.push(deqNode.right);
         } else {
-            deqNode.right = new TreeNode(val);
+            deqNode.right = new BinaryTreeNode(val);
             break;
         }
     }

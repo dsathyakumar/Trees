@@ -3,7 +3,7 @@
 /*
 * Post-Order Traversal
 * Process LEFT - RIGHT - DATA
-* @param {TreeNode} root
+* @param {BinaryTreeNode} root
 **/
 exports.postOrderIterative = (root) => {
     const result = [];

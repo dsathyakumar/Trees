@@ -8,7 +8,7 @@
  * in a Binary Tree had only 1 child (or is a half node), then, the binary Tree
  * is not a strict binary Tree.
  * A full binary tree is also referred as a STRICT BINARY TREE.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Boolean} isFull
  */
 exports.isStrictBinaryTree = exports.isFullBinaryTree = root => {

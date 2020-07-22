@@ -4,7 +4,7 @@
  * Returns the top view of the Binary Tree using Vertical Level order traversal
  * Vertical Level order Traversal results in nodes occupying the position properly
  * with respective to the levels.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.topView = root => {

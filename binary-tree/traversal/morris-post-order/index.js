@@ -1,14 +1,14 @@
 'use strict';
 
 const {
-    TreeNode
+    BinaryTreeNode
 } = require('../../treeNode');
 
 /**
  * Performs a Stack-less post order traversal of the Binary tree.
- * Re-purposes the in-order morris traversal via a temp TreeNode.
+ * Re-purposes the in-order morris traversal via a temp BinaryTreeNode.
  * Uses 2 additional aux spaces references to loop back over visited nodes.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.morrisPostOrder = root => {
@@ -20,7 +20,7 @@ exports.morrisPostOrder = root => {
 
     // The iteration starts off with an empty tree Node.
     // The given tree is made the left subtree of this tempNode.
-    let tempNode = new TreeNode();
+    let tempNode = new BinaryTreeNode();
     tempNode.left = root;
 
     let postOrderPredecessor = null;

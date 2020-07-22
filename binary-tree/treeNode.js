@@ -1,10 +1,10 @@
 'use strict';
 
-class TreeNode {
+class BinaryTreeNode {
   constructor(val) {
     this.val = val;
     this.left = this.right = null;
   }
 }
 
-exports.TreeNode = TreeNode;
+exports.BinaryTreeNode = BinaryTreeNode;

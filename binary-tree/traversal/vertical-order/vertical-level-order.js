@@ -2,7 +2,7 @@
 
 /**
  * Returns the Vertical Traversal Result of Binary Tree via Level order traversal.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  */
 exports.verticalLevelOrder = root => {
     const result = {};

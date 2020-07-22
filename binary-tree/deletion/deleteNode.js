@@ -7,7 +7,7 @@
  * - Delete the deepest right most node.
  * This deletes the node that has to be deleted and also tries to pull up the binary tree in terms
  * of reducing its height.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @param {*} val
  */
 exports.deleteNode = (root, val) => {

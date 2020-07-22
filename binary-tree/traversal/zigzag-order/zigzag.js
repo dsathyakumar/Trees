@@ -11,7 +11,7 @@
  * So, the 1st element of traversal from left, would be the 1st element in result array.
  * Bt, while filling the result for R->L, we will unshift elements into the array
  * causing the 1st element of the level (level order traversal) to move to the last position
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.zigzag = (root) => {

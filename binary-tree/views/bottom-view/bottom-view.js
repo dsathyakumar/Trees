@@ -2,7 +2,7 @@
 
 /**
  * Returns the bottom view of the Binary Tree using Vertical Level order traversal.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.bottomView = root => {

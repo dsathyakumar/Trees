@@ -3,7 +3,7 @@
 /*
 * Pre-Order Traversal
 * Process DATA - LEFT - RIGHT
-* @param {TreeNode} root
+* @param {BinaryTreeNode} root
 **/
 exports.preOrderIterative = (root) => {
     const result = [];

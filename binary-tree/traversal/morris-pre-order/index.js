@@ -7,7 +7,7 @@
  * The key to processing Node values in morris pre-order is:
  * - when left is going to be re-set
  * - when right is going to be re-set
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Array} result
  */
 exports.morrisPreOrder = root => {

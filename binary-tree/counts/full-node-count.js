@@ -5,7 +5,7 @@
  * To implement a Q'less level order traversal, for a non-threaded binary tree, morris
  * level order traversal can be used.
  * Full nodes are those parent nodes that have both LEFT & RIGHT child / subtree.
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  * @returns {Number} fullNodeCount
  */
 exports.getFullNodeCount = root => {

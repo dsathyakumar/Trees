@@ -1,7 +1,7 @@
 /**
  * Does an iterative level order traversal, but reports the nodes of
  * every level into its own separate arrays
- * @param {TreeNode} root
+ * @param {BinaryTreeNode} root
  */
 exports.levelOrderIntoSeparateArrays = (root) => {
     let result = [];

@@ -1,7 +1,7 @@
 'use strict';
 
 const {
-  TreeNode
+  BinaryTreeNode
 } = require('../treeNode');
 
 exports.arrayToBinaryTree = (arr) => {
@@ -10,7 +10,7 @@ exports.arrayToBinaryTree = (arr) => {
         return null;
     }
 
-    const rootNode = new TreeNode(arr[0]);
+    const rootNode = new BinaryTreeNode(arr[0]);
     const q = [rootNode];
 
     // starting from 0th index of the array, this keeps the count over array index
@@ -33,7 +33,7 @@ exports.arrayToBinaryTree = (arr) => {
         if ((leftIndex < (arr.length))
             && (arr[leftIndex] !== null)
             && (deQNode !== null)) {
-            deQNode.left = new TreeNode(arr[leftIndex]);
+            deQNode.left = new BinaryTreeNode(arr[leftIndex]);
             q.push(deQNode.left); // enQ at Rear
         } else {
             if (leftIndex < arr.length) {
@@ -47,7 +47,7 @@ exports.arrayToBinaryTree = (arr) => {
         if ((rightIndex < (arr.length))
             && (arr[rightIndex] !== null)
             && (deQNode !== null)) {
-            deQNode.right = new TreeNode(arr[rightIndex]);
+            deQNode.right = new BinaryTreeNode(arr[rightIndex]);
             q.push(deQNode.right); // enQ at rear
         } else {
             // else just push a NULL

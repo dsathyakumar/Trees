@@ -3,7 +3,7 @@
 /*
 * In-Order Traversal
 * Process LEFT - DATA - RIGHT
-* @param {TreeNode} root
+* @param {BinaryTreeNode} root
 **/
 exports.inOrderIterative = (root) => {
     const result = [];
