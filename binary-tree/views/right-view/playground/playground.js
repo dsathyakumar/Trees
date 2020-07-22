@@ -2,7 +2,7 @@
 
 const {
     arrayToBinaryTree
-} = require('../../../construct/arrayToBinaryTree');
+} = require('../../../construct');
 
 const {
     rightView
