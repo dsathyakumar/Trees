@@ -31,3 +31,11 @@ console.log(JSON.stringify(T_1, null, 3));
 // ----------- pre-order traversal
 // should print [A, B, G, C, D, E, F]
 console.log(morrisPreOrder(T_1));
+
+
+const T_2 = arrayToBinaryTree([
+    'A',
+    null, null    
+]);
+console.log(JSON.stringify(T_2, null, 3));
+console.log(morrisPreOrder(T_2));

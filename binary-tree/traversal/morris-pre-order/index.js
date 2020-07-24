@@ -69,7 +69,13 @@ exports.morrisPreOrder = root => {
             // as this is pre-order, process NODE first
             result.push(currentNode.val);
             currentNode = currentNode.right;
+            continue;
         }
+
+        // this should ideally never execute except for the case
+        // where a tree has only 1 node => Root
+        result.push(currentNode.val);
+        break;
     }
 
     return result;
