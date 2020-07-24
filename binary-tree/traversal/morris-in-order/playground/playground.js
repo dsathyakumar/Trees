@@ -31,3 +31,10 @@ console.log(JSON.stringify(T_1, null, 3));
 // ----------- in-order traversal
 //should print [G, B, A, D, C, F, E]
 console.log(morrisInOrder(T_1));
+
+const T_2 = arrayToBinaryTree([
+    'A',
+    null, null    
+]);
+console.log(JSON.stringify(T_2, null, 3));
+console.log(morrisInOrder(T_2));

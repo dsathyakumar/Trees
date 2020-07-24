@@ -64,12 +64,19 @@ exports.morrisInOrder = root => {
         }
 
         // if not LEFT subTree, process currentNode.
+        // Before processing the RIght.
+        // So, just in case the tree had only ROOT (1 Node only)
+        // then this would process the it.
         result.push(currentNode.val);
 
         // if RIGHT subTree exists, process it & outer loop continues
         if (currentNode.right) {
             currentNode = currentNode.right;
+            continue;
         }
+
+        // this is mainly for case of a ROOT node (prevent the loop from going on endlessly)
+        break;
     }
 
     return result;
