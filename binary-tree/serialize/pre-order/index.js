@@ -4,8 +4,10 @@ const {
     deserialize
 } = require('./de-serialize');
 const {
-    serialize
+    serialize,
+    serializeMorrisPreOrder
 } = require('./serialize');
 
 exports.serializeViaPreOrder = serialize;
 exports.deserializePreOrder = deserialize;
+exports.serializeMorrisPreOrder = serializeMorrisPreOrder;
