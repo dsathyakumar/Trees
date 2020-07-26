@@ -87,8 +87,8 @@ For example, take the following Binary Tree:
     null, null, null, null, null, null, 'F', null
  ]
  ```
-The NULL node in Level = 2, introduced 2 more NULL nodes in Level 3.
-Also, every level k has 2 ^k nodes starting with root at level = 0, being 2 ^ 0 = 1 node.
+- The NULL node in Level = 2, introduced 2 more NULL nodes in Level 3.
+- Also, every level k has 2 ^k nodes starting with root at level = 0, being 2 ^ 0 = 1 node.
 
 Per Leet Code, this would be represented as:
 ```javascript
@@ -96,9 +96,10 @@ Per Leet Code, this would be represented as:
     'A',
     'B', 'C',
     'G', null, 'D', 'E',
-    null, null, null, null, 'F', null
+    null, null, null, null, 'F'
  ]
  ```
- The NULL node in Level = 2, does not introduce 2 more NULL nodes in Level 3.
- Every level k, DOES NOT have 2 ^ k nodes.
- 
+- The NULL node in Level = 2, does not introduce 2 more NULL nodes in Level 3.
+- Every level k, DOES NOT have 2 ^ k nodes.
+- Also, once the last level is reached (level = 3), and once all valid child nodes are filled, the rest of the NULL nodes are not included.
+  (For eg) Node E has node F as the left and a NULL as its RIGHT. This NULL is not included)
