@@ -59,3 +59,46 @@ The need for checking out this came with the LC Problem [Serialize and De-serial
 With Leet Code using this kind of representation, it caused some issues with the solution which was attempted via the usual Level Order Traversal.
 
 ### Difference with an example:
+
+For example, take the following Binary Tree:
+
+// ----------- Binary Tree construction from Array
+/** The Given Binary Tree is:
+ *  ----------------------------
+ *            A
+ *      _____/ \________
+ *     /                \
+ *     B                C
+ *    /              ___/ \___
+ *    G             /         \
+ *                D          E
+ *                       ___/
+ *                      /
+ *                      F
+ */
+ 
+ Per the usual Binary Tree Representation, this is given as:
+ 
+ ```javascript
+ [
+    'A',
+    'B', 'C',
+    'G', null, 'D', 'E',
+    null, null, null, null, null, null, 'F', null
+ ]
+ ```
+The NULL node in Level = 2, introduced 2 more NULL nodes in Level 3.
+Also, every level k has 2 ^k nodes starting with root at level = 0, being 2 ^ 0 = 1 node.
+
+Per Leet Code, this would be represented as:
+```javascript
+ [
+    'A',
+    'B', 'C',
+    'G', null, 'D', 'E',
+    null, null, null, null, 'F', null
+ ]
+ ```
+ The NULL node in Level = 2, does not introduce 2 more NULL nodes in Level 3.
+ Every level k, DOES NOT have 2 ^ k nodes.
+ 
