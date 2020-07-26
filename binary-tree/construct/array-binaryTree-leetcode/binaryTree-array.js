@@ -102,5 +102,9 @@ exports.binaryTreeToArray = root => {
         }
     }
 
+    // note that we still have not satisfied the condition of:
+    // - If the Last level was reached and the last valid Child Node is reached, other NULL child nodes
+    // at same level are no longer filled.
+
     return result;
 };
