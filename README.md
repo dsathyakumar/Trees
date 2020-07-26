@@ -2,7 +2,8 @@
 
 ### Topics
 1. Construction
-    - Convert from Array Representation of Binary Tree to a Binary Tree & back
+    - Convert from Array Representation of Binary Tree to a Binary Tree & back (based on Level Order Traversal representation of complete binary tree)
+    - Convert from Array Representation of Binary Tree to a Binary Tree & back (based on LeetCode's Level Order Traversal representation of binary tree)
     - Convert Nested Lists representation of Binary Tree to a Binary Tree & back
     - Convert Map representation of Binary Tree & back.
     - Convert BinaryTreeNode to Left-Child & Right-Sibling representation & back
