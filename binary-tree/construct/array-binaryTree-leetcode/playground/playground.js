@@ -9,19 +9,18 @@ const T_1 = lcArrayToBinaryTree([
     'A',
     'B', 'C',
     null, 'D', 'E', 'F',
-    null, null, null, null, 'G', null, 'H', 'I'
+    null, null, 'G', null, 'H', 'I'
 ]);
+console.log(lcBinaryTreeToArray(T_1));
 
 const T_2 = lcArrayToBinaryTree([
     3,
     2, 4,
-    1, null, null, null
+    1
 ]);
-
-console.log(lcBinaryTreeToArray(T_1));
 console.log(lcBinaryTreeToArray(T_2));
 
-const DS_T1 = lcArrayToBinaryTree(lcBinaryTreeToArray(T_1));
+// const DS_T1 = lcArrayToBinaryTree(lcBinaryTreeToArray(T_1));
 
 const DS_T2 = lcArrayToBinaryTree([
     1,
@@ -32,5 +31,4 @@ const DS_T2 = lcArrayToBinaryTree([
     null,null,10,8,4,2,null,null,
     9,11,null,null,1
 ]);
-
 console.log(lcBinaryTreeToArray(DS_T2));
