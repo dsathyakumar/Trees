@@ -6,6 +6,11 @@ const {
 } = require('./array-binaryTree/');
 
 const {
+  lcBinaryTreeToArray,
+  lcArrayToBinaryTree
+} = require('./array-binaryTree-leetcode')
+
+const {
   mapToBinaryTree,
   binaryTreeToMap
 } = require('./map-binaryTree')
@@ -23,3 +28,6 @@ exports.binaryTreeToMap = binaryTreeToMap;
 
 exports.listToBinaryTree = listToBinaryTree;
 exports.binaryTreeToList = binaryTreeToList;
+
+exports.lcArrayToBinaryTree = lcArrayToBinaryTree;
+exports.lcBinaryTreeToArray = lcBinaryTreeToArray;
