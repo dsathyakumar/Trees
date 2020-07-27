@@ -23,12 +23,11 @@ const EMPTY_INDICATOR = '/';
  * @returns {Array} result
  */
 exports.serialize = root => {
-    const result = [];
-
     if (!root) {
-        return result;
+        return '/';
     }
 
+    const result = [];
     const q = [root];
 
     let deqNode = null;

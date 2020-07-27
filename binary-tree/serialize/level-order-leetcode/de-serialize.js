@@ -12,7 +12,7 @@ const {
  * @returns {BinaryTreeNode} root
  */
 exports.deserialize = (data) => {
-    if (!data.length) {
+    if (!data.length || (data.length === 1 && data[0] === '/')) {
         return null;
     }
 
