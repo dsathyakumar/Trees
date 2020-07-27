@@ -9,6 +9,10 @@ const {
     deserializeLevelOrder
 } = require('./level-order');
 const {
+    lcDeSerialize,
+    lcSerialize
+} = require('./level-order-leetcode');
+const {
     serializeViaPreOrderWithBit,
     deserializePreOrderWithBit
 } = require('./pre-order-with-bit');
@@ -21,3 +25,6 @@ exports.deserializePreOrder = deserializePreOrder;
 
 exports.serializeViaPreOrderWithBit = serializeViaPreOrderWithBit;
 exports.deserializePreOrderWithBit = deserializePreOrderWithBit;
+
+exports.lcDeSerialize = lcDeSerialize;
+exports.lcSerialize = lcSerialize;
