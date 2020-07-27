@@ -3,7 +3,7 @@
 const {
     serializeViaPreOrder,
     deserializePreOrder
-} = require('./pre-order/');
+} = require('./pre-order');
 const {
     serializeViaLevelOrder,
     deserializeLevelOrder
