@@ -58,7 +58,7 @@ exports.childToSiblingTree = (root) => {
                 } else {
                     // perform the change
                     // A) if a LEFT did not exist, set current RIGHT as the LEFT child
-                        // (This is done cos a RIGHT denotes a RIGHT subling now)
+                        // (This is done cos a RIGHT denotes a RIGHT siibling now)
                     // B) if a RIGHT existed, its made as RIGHT sibling of the Node's
                         // LEFT child.
                     if (prevNode.left) {
