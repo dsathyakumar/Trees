@@ -5,6 +5,21 @@
  * to a sibling tree based on LEFT CHILD - RIGHT SIBLING representation.
  * Makes use of Post Order Traversal to perform this conversion.
  * 
+ * For a given parent Node,
+ * - A) if a RIGHT child & LEFT CHILD existed,
+ *      Then this RIGHT CHILD is made a sibling of LEFT
+ *      The link between Parent Node and RIGHT child is broken
+ * 
+ * - B) if a RIGHT child existed in the absence of a LEFT CHILD
+ *      Then this RIGHT CHILD Is made the LEFT CHILD of its parent
+ *      The Right is set to NULL
+ * 
+ * - C) The Root Node will no longer have a RIGHT (as its RIGHT sibling is NULL)
+ * 
+ * While we still use the definition of a BinaryTreeNode, there are some changes:
+ * LEFT => Left Child.
+ * RIGHT => Right Sibling
+ * 
  * @param {BinaryTreeNode} root
  * @returns {BinaryTreeNode} root
  */
@@ -79,5 +94,8 @@ exports.childToSiblingTree = (root) => {
         }
     }
 
+    // Note that after conversion,
+    // LEFT => LEFT CHILD
+    // RIGHT => RIGHT SIBLING
     return root;
 };
