@@ -40,6 +40,8 @@ exports.deserialize = data => {
         // determine if the current value represents an internal node or not.
         if (current.charAt(current.length - 1) === "'") {
             isInternal = true;
+            // this whole check can be averted by also keeping an isInternal
+            // bit within the BinaryTreeNode
             current = current.substring(0, current.length - 1);
         }
 
