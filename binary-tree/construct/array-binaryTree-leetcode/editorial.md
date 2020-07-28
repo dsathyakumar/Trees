@@ -62,6 +62,7 @@ With Leet Code using this kind of representation, it caused some issues with the
 
 For example, take the following Binary Tree:
 
+```javascript
 // ----------- Binary Tree construction from Array
 /** The Given Binary Tree is:
  *  ----------------------------
@@ -76,8 +77,9 @@ For example, take the following Binary Tree:
  *                      /
  *                      F
  */
- 
- Per the usual Binary Tree Representation, this is given as:
+ ```
+
+Per the usual Binary Tree Representation, this is given as:
  
  ```javascript
  [
