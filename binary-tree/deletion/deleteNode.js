@@ -57,13 +57,17 @@ exports.deleteNode = (root, val) => {
         }
     }
 
-    nodeToBeDeleted.val = deepestRightMost.val;
-    
-    if (parent.left === deepestRightMost) {
-        parent.left = null;
-    } else {
-        parent.right = null;
+    if (nodeToBeDeleted) {
+        nodeToBeDeleted.val = deepestRightMost.val;
+
+        if (parent.left === deepestRightMost) {
+            parent.left = null;
+        } else {
+            parent.right = null;
+        }
     }
 
+    // The return value is purely optional!
+    // It could be a boolean to indicate that the deletion was a success or not.
     return root;
 };
