@@ -75,7 +75,7 @@ if the LEFT child was actually a LEFT originally or a RIGHT child made as LEFT.
 
 
 ### References
-https://www.techiedelight.com/convert-normal-binary-tree-left-child-right-sibling-binary-tree/
-https://www.geeksforgeeks.org/creating-tree-left-child-right-sibling-representation/
-https://www.geeksforgeeks.org/left-child-right-sibling-representation-tree/
-https://www.geeksforgeeks.org/convert-left-right-representation-bianry-tree-right/?ref=rp
+- https://www.techiedelight.com/convert-normal-binary-tree-left-child-right-sibling-binary-tree/
+- https://www.geeksforgeeks.org/creating-tree-left-child-right-sibling-representation/
+- https://www.geeksforgeeks.org/left-child-right-sibling-representation-tree/
+- https://www.geeksforgeeks.org/convert-left-right-representation-bianry-tree-right/?ref=rp
