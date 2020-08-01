@@ -37,12 +37,12 @@ exports.arrayToBinaryTree = (data) => {
             left = data.shift();
             right = data.shift();
 
-            if (left) {
+            if (left !== null && typeof left !== 'undefined') {
                 deqNode.left = new BinaryTreeNode(left);
                 q.push(deqNode.left);
             }
 
-            if (right) {
+            if (right !== null && typeof right !== 'undefined') {
                 deqNode.right = new BinaryTreeNode(right);
                 q.push(deqNode.right);
             }
