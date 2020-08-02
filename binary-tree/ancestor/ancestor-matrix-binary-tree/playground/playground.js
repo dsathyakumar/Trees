@@ -16,3 +16,4 @@ const T1 = lcArrayToBinaryTree([
 
 const T1_ansMatrix = binaryTreeToAncestorMatrix(T1);
 console.log(T1_ansMatrix);
+
