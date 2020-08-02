@@ -39,6 +39,9 @@ const generateInitialMatrix = size => {
 // recursively fills the ancestorMatrix with info on immediate ancestors
 const constructAncestorMatrix = (node, parentIndex, ancestorMatrix) => {
     // NULL node => return
+    // Nothing to fill if the node is NULL
+    // This is the base case that terminates the recursion
+    // It will be triggered / hit when a LEAF node invokes its LEFT or RIGHT
     if (!node) {
         return;
     }
@@ -83,6 +86,7 @@ const constructAncestorMatrix = (node, parentIndex, ancestorMatrix) => {
  * @returns {Array} 2D ancestor matrix array
  */
 exports.ancestorMatrixViaTransitiveClosure = root => {
+    // empty tree return
     if (!root) {
         return;
     }

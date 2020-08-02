@@ -26,6 +26,9 @@ While Node deletion is the intended purpose, the final purpose is to always redu
     - 3. The deepest and rightmost node (this is the lastly dequed Node)
 
 
+### Workings
+Refer to [deleteNode.svg](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/deletion/deleteNode.svg) to understand the step by step process of Node deletion via a BFS level order traversal.
+
 ## Binary Tree Tree Destroy
 
 ### Overview
