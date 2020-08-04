@@ -19,6 +19,8 @@ const {
  *      (The Node is an ancestor of no node => its a leaf)
  * - Any Node corresponding to a rowIndex with the Row having most number of ones is the ROOT.
  *      (The Node is an ancestor of many nodes => The root is the ancestor for every node, save itself)
+ * - Conversely, it can also be said, with respect to the columns, that any node represented by a column index,
+ *      which has 0 (for the entire column) => that node is the Root (as the root has no ancestor)
  * - If the Nodes (numbered per rowIndexes) are grouped from smallest rowSum to largest rowSum
  *   Then, if two nodes A & B are both ancestors of Node C, and if Node A has a greater rowSum than
  *   Node B, then Node A gets filled at the end => Node B is the immediate ancestor or Lowest ancestor
