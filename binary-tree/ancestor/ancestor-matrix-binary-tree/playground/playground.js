@@ -7,7 +7,8 @@ const {
 const {
     binaryTreeToAncestorMatrix,
     ancestorMatrixViaTransitiveClosure,
-    ancestorMatrixToBinaryTree
+    ancestorMatrixToBinaryTree,
+    ancestorMatrixToBinaryTreeTopDown
 } = require('../');
 
 const T1 = lcArrayToBinaryTree([
@@ -33,3 +34,13 @@ const T2 = ancestorMatrixToBinaryTree(
     ]
 );
 console.log(T2);
+
+const T3 = ancestorMatrixToBinaryTreeTopDown([
+    [0, 0, 0, 1, 1, 0],
+    [0, 0, 0, 0, 0, 1],
+    [1, 1, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0]
+]);
+console.log(T3);
