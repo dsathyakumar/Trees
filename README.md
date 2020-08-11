@@ -1,7 +1,7 @@
 ## Trees
 
 ### Topics
-1. Construction
+1. Construction of Binary Tree (from a specific representation to its Linked representation & back)
     - [Convert from Array Representation of Binary Tree to a Binary Tree & back (based on Level Order Traversal representation of complete binary tree)](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/array-binaryTree)
     - [Convert from Array Representation of Binary Tree to a Binary Tree & back (based on LeetCode's Level Order Traversal representation of binary tree)](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/array-binaryTree-leetcode)
     - [Convert Nested Lists representation of Binary Tree to a Binary Tree & back](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/list-binaryTree) based on [Tree Representation by BradFieldCS](https://bradfieldcs.com/algos/trees/representing-a-tree/)
@@ -50,10 +50,10 @@
     - Morris post-order traversal
     - Morris level-order traversal
 3. Insertion
-    - Insertion of Node to Binary Tree
-4. Deletion
-    - Deletion of a Node from Binary Tree
-    - Destroy the Binary Tree
+    - [Insertion of Node to Binary Tree via Level Order Traversal](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/insertion)
+4. [Deletion](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/deletion)
+    - [Deletion of a Node](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/deletion/deleteNode.js) from Binary Tree via the Deepest and RightMost Node swap approach
+    - [Destroy the Binary Tree](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/deletion/destroyTree.js) via Post order traversal
 5. Views of a Binary Tree
     - [Top View](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/views/top-view)
     - [Left View](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/views/left-view)
