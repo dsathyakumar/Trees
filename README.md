@@ -77,6 +77,10 @@
 10. **Check if binary tree is height Balanced.**
 11. **Convert N-ary tree to Binary Tree and back.**
 12. **Serialize Binary Tree**
+    - [Serialize via pre-order traversal with info on Leaf Nodes and Null Child Nodes & de-serialize](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/serialize-deserialize/pre-order)
+    - [Serialize via pre-order traversal with info on internal Nodes and external Nodes & de-serialize](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/serialize-deserialize/pre-order-with-bit)
+    - [Serialize via level-order traversal of Complete Binary tree & de-serialize](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/serialize-deserialize/level-order)
+    - [Serialize via level-order traversal of Binary tree, per leetcode representation & de-serialize](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/serialize-deserialize/level-order-leetcode)
 13. **Serialize N-ary tree.**
 14. **Structural (changes to the structure of the Binary Tree - specific structural observations, checks and changes)**
     - [Invert a Binary Tree](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/structural/invert)
