@@ -7,7 +7,7 @@
     - [Convert Nested Lists representation of Binary Tree to a Binary Tree & back](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/list-binaryTree) based on [Tree Representation by BradFieldCS](https://bradfieldcs.com/algos/trees/representing-a-tree/)
     - [Convert Map representation of Binary Tree & back](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/map-binaryTree) based on [Tree Representation by BradFieldCS](https://bradfieldcs.com/algos/trees/representing-a-tree/)
     - [Convert BinaryTreeNode to Left-Child & Right-Sibling representation & back (LC - RS)](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/child-sibling-lc-rs)
-2. Traversals
+2. Traversals of a Binary Tree
     - InOrder
         - Recursive
         - Iterative
@@ -49,7 +49,7 @@
     - Morris pre-order traversal
     - Morris post-order traversal
     - Morris level-order traversal
-3. Insertion
+3. Insertion (of a Node into a Binary Tree)
     - [Insertion of Node to Binary Tree via Level Order Traversal](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/insertion)
 4. [Deletion](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/deletion)
     - [Deletion of a Node](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/deletion/deleteNode.js) from Binary Tree via the Deepest and RightMost Node swap approach
@@ -78,5 +78,5 @@
 11. Convert N-ary tree to Binary Tree and back.
 12. Serialize Binary Tree
 13. Serialize N-ary tree.
-14. Structural
+14. Structural (changes to the structure of the Binary Tree - specific structural observations, checks and changes)
     - [Invert a Binary Tree](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/structural/invert)
