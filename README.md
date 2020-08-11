@@ -1,13 +1,13 @@
 ## Trees
 
 ### Topics
-1. Construction of Binary Tree (from a specific representation to its Linked representation & back)
+1. **Construction of Binary Tree (from a specific representation to its Linked representation & back)**
     - [Convert from Array Representation of Binary Tree to a Binary Tree & back (based on Level Order Traversal representation of complete binary tree)](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/array-binaryTree)
     - [Convert from Array Representation of Binary Tree to a Binary Tree & back (based on LeetCode's Level Order Traversal representation of binary tree)](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/array-binaryTree-leetcode)
     - [Convert Nested Lists representation of Binary Tree to a Binary Tree & back](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/list-binaryTree) based on [Tree Representation by BradFieldCS](https://bradfieldcs.com/algos/trees/representing-a-tree/)
     - [Convert Map representation of Binary Tree & back](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/map-binaryTree) based on [Tree Representation by BradFieldCS](https://bradfieldcs.com/algos/trees/representing-a-tree/)
     - [Convert BinaryTreeNode to Left-Child & Right-Sibling representation & back (LC - RS)](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/child-sibling-lc-rs)
-2. Traversals of a Binary Tree
+2. **Traversals of a Binary Tree**
     - InOrder
         - Recursive
         - Iterative
@@ -49,23 +49,23 @@
     - Morris pre-order traversal
     - Morris post-order traversal
     - Morris level-order traversal
-3. Insertion (of a Node into a Binary Tree)
+3. **Insertion (of a Node into a Binary Tree)**
     - [Insertion of Node to Binary Tree via Level Order Traversal](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/insertion)
-4. [Deletion](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/deletion)
+4. **[Deletion](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/deletion)**
     - [Deletion of a Node](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/deletion/deleteNode.js) from Binary Tree via the Deepest and RightMost Node swap approach
     - [Destroy the Binary Tree](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/deletion/destroyTree.js) via Post order traversal
-5. Views of a Binary Tree
+5. **Views of a Binary Tree**
     - [Top View](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/views/top-view)
     - [Left View](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/views/left-view)
     - [Right View](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/views/right-view)
     - [Bottom View](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/views/bottom-view)
-6. Height / Depth of tree
+6. **Height / Depth of tree**
     - Max Height / Depth of Tree (Recursive top-down)
     - Max Height / Depth of Tree (Recursive bottom-up)
     - Min Height / Depth of Tree (Iterative)
-7. Width of tree
-8. Diameter of tree
-9. Counts
+7. **Width of tree**
+8. **Diameter of tree**
+9. **Counts**
     - Number of leaf nodes (terminal or external nodes - nodes without children)
     - Number of full nodes (those that have both LEFT and RIGHT subtrees)
     - Number of half nodes (those that have either LEFT or RIGHT subtrees)
@@ -74,9 +74,9 @@
     - Number of edges
     - Number of nodes
     - Sum of all nodes
-10. Check if binary tree is height Balanced.
-11. Convert N-ary tree to Binary Tree and back.
-12. Serialize Binary Tree
-13. Serialize N-ary tree.
-14. Structural (changes to the structure of the Binary Tree - specific structural observations, checks and changes)
+10. **Check if binary tree is height Balanced.**
+11. **Convert N-ary tree to Binary Tree and back.**
+12. **Serialize Binary Tree**
+13. **Serialize N-ary tree.**
+14. **Structural (changes to the structure of the Binary Tree - specific structural observations, checks and changes)**
     - [Invert a Binary Tree](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/structural/invert)
