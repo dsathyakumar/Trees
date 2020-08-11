@@ -78,3 +78,5 @@
 11. Convert N-ary tree to Binary Tree and back.
 12. Serialize Binary Tree
 13. Serialize N-ary tree.
+14. Structural
+    - [Invert a Binary Tree](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/structural/invert)
