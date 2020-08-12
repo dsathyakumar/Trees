@@ -84,3 +84,6 @@
 13. **Serialize N-ary tree.**
 14. **Structural (changes to the structure of the Binary Tree - specific structural observations, checks and changes)**
     - [Invert a Binary Tree](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/structural/invert)
+15. **Search**
+    - [BFS](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/search/bfs) via Level order Traversal
+    - [DFS](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/search/dfs) via pre-order traversal
