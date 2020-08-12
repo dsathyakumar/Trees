@@ -17,11 +17,11 @@
     - _Post-order_
         - [Recursive](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/post-order/recursive.js)
         - [Iterative](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/post-order/iterative.js)
-    - Level-order
+    - _Level-order_
         - [Iterative](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/level-order/iterative.js)
         - [Recursive](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/level-order/recursive.js)
         - Reverse Level order traversal
-    - Levels into separate arrays
+    - _Levels into separate arrays_
         - [Iterative](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/level-order/separate-arrays-iterative.js)
         - [Recursive](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/level-order/separate-arrays-recursive.js)
     - zigzag-order
