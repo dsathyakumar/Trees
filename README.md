@@ -87,3 +87,13 @@
 15. **Search**
     - [BFS](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/search/bfs) via Level order Traversal
     - [DFS](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/search/dfs) via pre-order traversal
+16. **Binary Tree type checks**
+    - [isHeightBalanced](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/types/is-height-balanced)
+    - [isFull](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/types/is-full)
+    - [isPerfect](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/types/is-perfect)
+    - [isComplete](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/types/is-complete)
+    - isSkewed
+    - isIdentical
+    - isIsomorphic
+    - isSymmetrical
+    - isQuasiIsoMorphic
