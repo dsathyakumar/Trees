@@ -66,13 +66,13 @@
 7. **Width of tree**
 8. **Diameter of tree**
 9. **Counts**
-    - Number of leaf nodes (terminal or external nodes - nodes without children)
-    - Number of full nodes (those that have both LEFT and RIGHT subtrees)
-    - Number of half nodes (those that have either LEFT or RIGHT subtrees)
-    - Number of internal nodes (non-terminal / non-leaf nodes)
-    - Number of levels
-    - Number of edges
-    - Number of nodes
+    - [Number of leaf nodes](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/counts/leaf-node-count.js) (terminal or external nodes - nodes without children)
+    - [Number of full nodes](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/counts/full-node-count.js) (those that have both LEFT and RIGHT subtrees)
+    - [Number of half nodes](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/counts/half-node-count.js) (those that have either LEFT or RIGHT subtrees)
+    - [Number of internal nodes](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/counts/internal-node-count.js) (non-terminal / non-leaf nodes)
+    - [Number of levels](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/counts/levels-count.js)
+    - [Number of edges](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/counts/edges-count.js)
+    - [Number of nodes](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/counts/nodes-count.js)
     - Sum of all nodes
 10. **Check if binary tree is height Balanced.**
 11. **Convert N-ary tree to Binary Tree and back.**
