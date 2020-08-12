@@ -8,22 +8,22 @@
     - [Convert Map representation of Binary Tree & back](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/map-binaryTree) based on [Tree Representation by BradFieldCS](https://bradfieldcs.com/algos/trees/representing-a-tree/)
     - [Convert BinaryTreeNode to Left-Child & Right-Sibling representation & back (LC - RS)](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/construct/child-sibling-lc-rs)
 2. **Traversals of a Binary Tree**
-    - InOrder
-        - Recursive
-        - Iterative
-    - Pre-order
-        - Recursive
-        - Iterative
-    - Post-order
-        - Recursive
-        - Iterative
+    - _InOrder_
+        - [Recursive](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/in-order/recursive.js)
+        - [Iterative](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/in-order/iterative.js)
+    - _Pre-order_
+        - [Recursive](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/pre-order/recursive.js)
+        - [Iterative](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/pre-order/iterative.js)
+    - _Post-order_
+        - [Recursive](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/post-order/recursive.js)
+        - [Iterative](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/post-order/iterative.js)
     - Level-order
-        - Recursive
-        - Iterative
+        - [Iterative](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/level-order/iterative.js)
+        - [Recursive](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/level-order/recursive.js)
         - Reverse Level order traversal
     - Levels into separate arrays
-        - Iterative
-        - Recursive
+        - [Iterative](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/level-order/separate-arrays-iterative.js)
+        - [Recursive](https://github.com/dsathyakumar/Trees/blob/master/binary-tree/traversal/level-order/separate-arrays-recursive.js)
     - zigzag-order
         - Zigzag (Horizontal)
         - Zigzag inverse (Horizontal)
@@ -45,10 +45,10 @@
     - triangular traversal
     - middle to up-down order traversal
     - sideways traversal
-    - Morris in-order traversal
-    - Morris pre-order traversal
-    - Morris post-order traversal
-    - Morris level-order traversal
+    - [Morris in-order traversal](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/traversal/morris-in-order)
+    - [Morris pre-order traversal](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/traversal/morris-pre-order)
+    - [Morris post-order traversal](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/traversal/morris-post-order)
+    - [Morris level-order traversal](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/traversal/morris-level-order)
 3. **Insertion (of a Node into a Binary Tree)**
     - [Insertion of Node to Binary Tree via Level Order Traversal](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/insertion)
 4. **[Deletion](https://github.com/dsathyakumar/Trees/tree/master/binary-tree/deletion)**
