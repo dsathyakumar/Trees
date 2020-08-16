@@ -63,4 +63,7 @@ This block executes only if LEFT did not exist, the ROOT data is processed.
     - When such a loop exists, break the LINK, process the Node.
 
     - Also, since we have arrived at an ancestor, the only think LEFT is to process its RIGHT. So set currentNode = currentNode.right and continue with iteration. Neither LEFT nor RIGHT => current Node has no children, For eg) Root Node that is a LEAF (only 1 node in tree). Break the iteration.
-         
+
+### References
+- https://www.educative.io/edpresso/what-is-morris-traversal
+- https://www.youtube.com/watch?v=wGXB9OWhPTg
