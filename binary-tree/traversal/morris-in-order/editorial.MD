@@ -13,6 +13,22 @@ the Nodes are going to be printed in the pre-order fashion.
 - its LEFT, ROOT, RIGHT
 - note that the LEFT has to be processed 1st, then the Node and then the  RIGHT.
 
+### How does morris travesal do this?
+Morris traversal determines the in-order predecessor of a Node, to create a temp Back Link, so that these ancestor Nodes can be re-visited later, to process their RIGHT subtrees, once their LEFT subtrees are done processing.
+
+For ex)
+![image](https://user-images.githubusercontent.com/5446493/90345721-592cd480-dfe0-11ea-897b-ff4a8fc20b1e.png)
+
+In this diagram, 
+
+- Node E has a back link to Node A
+- Nodee D has a back link to Node B
+- So, using these back links, once Node E and Node D are done processing, these back links are used, to reach ancestors, that have to be processed for their RIGHT subtrees.
+
+### How Does Morris Traversal prevent the infinite cycle or loop of processing same set of Nodes, now that they're cyclic.
+- When starting at Node B, for the sequence B -> C -> D -> E, its continuously checked, if the Node's RIGHT is same as the starting Node B. This happens at E. Thus, we know that this is a cyclic loop.
+- When we reach back the starting Node B, in the cyclic loop, then, the traversal of LEFT subtree is considered complete. This is because, only upon, 1st traversal of Node B, is the temp link created.
+- Node B is reached back again, from a decesendant, meaning, all its LEFT subtrees are done processing. So this temp back LINK can be broken, and its RIGHT subtree can be processed.
 
 ### The Steps for Morris In Order Traversal is:
 For any **Node A** of the Binary Tree (currentNode in iteration),
