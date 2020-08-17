@@ -29,3 +29,9 @@ console.log(JSON.stringify(T_2, null, 3));
 console.log(morrisLevelOrder(T_2));
 
 
+const T_3 = arrayToBinaryTree([
+    'A',
+    null, null    
+]);
+console.log(JSON.stringify(T_3, null, 3));
+console.log(morrisLevelOrder(T_3));
