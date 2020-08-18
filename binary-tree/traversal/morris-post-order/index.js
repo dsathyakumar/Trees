@@ -32,9 +32,8 @@ exports.morrisPostOrder = root => {
     // Note that, since we used a Temp Node, the back link wont point
     // correctly. So, to fix this, we determine the predecessor as stopNode.
     // Then we iterate currentNode to predecessor - 1 and so on, until,
-    // stopNode becomes the LEFT child, at this point we stop and move to nextNode
+    // stopNode becomes the LEFT child, at this point we stop and move to currentNode.right
     let stopNode = null;
-    let nextNode = null;
 
     // So iteration starts off with the tempNode instead of the given root.
     let currentNode = tempNode;
@@ -47,8 +46,7 @@ exports.morrisPostOrder = root => {
 
             if (stopNode === predecessor) {
                 stopNode = null;
-                currentNode = nextNode;
-                nextNode = null;
+                currentNode = currentNode.right;
                 continue;
             }
 
@@ -62,7 +60,6 @@ exports.morrisPostOrder = root => {
                         result.push(predecessor.val);
                         stopNode = predecessor;
                         predecessor.right = null;
-                        nextNode = currentNode.right;
                         break;
                     } else {
                         predecessor = predecessor.right;
